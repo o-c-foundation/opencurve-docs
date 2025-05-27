@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction to OpenCurve - OpenCurve Documentation</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #eee;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+    .logo img {
+      height: 40px;
+      margin-right: 10px;
+    }
+    nav {
+      display: flex;
+      gap: 20px;
+    }
+    nav a {
+      color: #0366d6;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 0.5em;
+    }
+    h2 {
+      font-size: 1.8em;
+      margin-top: 1.5em;
+      margin-bottom: 0.5em;
+      padding-bottom: 0.25em;
+      border-bottom: 1px solid #eee;
+    }
+    h3 {
+      font-size: 1.3em;
+      margin-top: 1.5em;
+    }
+    p {
+      margin-bottom: 1.2em;
+    }
+    ul {
+      padding-left: 25px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    a {
+      color: #0366d6;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      display: flex;
+      gap: 40px;
+    }
+    .sidebar {
+      flex: 0 0 250px;
+    }
+    .content {
+      flex: 1;
+    }
+    .breadcrumbs {
+      margin-bottom: 20px;
+      font-size: 0.9em;
+      color: #586069;
+    }
+    .breadcrumbs a {
+      color: #586069;
+    }
+    footer {
+      margin-top: 60px;
+      padding-top: 20px;
+      border-top: 1px solid #eee;
+      color: #586069;
+      font-size: 0.9em;
+    }
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      nav {
+        margin-top: 15px;
+        flex-wrap: wrap;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="../index.html">
+        <img src="../assets/images/logo.webp" alt="OpenCurve Logo">
+      </a>
+      <h1>OpenCurve Documentation</h1>
+    </div>
+    <nav>
+      <a href="../getting-started/introduction.html">Getting Started</a>
+      <a href="../tokens/create.html">Tokens</a>
+      <a href="../trading/overview.html">Trading</a>
+      <a href="../agents/overview.html">Agents</a>
+      <a href="../wallets/connecting.html">Wallets</a>
+      <a href="../api/index.html">API</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="sidebar">
+      <div class="sidebar-nav">
+        <h4>Getting Started</h4>
+        <ul>
+          <li><a href="introduction.html">Introduction</a></li>
+          <li><a href="index.html">Overview</a></li>
+        </ul>
+        
+        <h4>Documentation</h4>
+        <ul>
+          <li><a href="../tokens/index.html">Tokens</a></li>
+          <li><a href="../trading/index.html">Trading</a></li>
+          <li><a href="../agents/index.html">Agents</a></li>
+          <li><a href="../wallets/index.html">Wallets</a></li>
+          <li><a href="../blockchain/index.html">Blockchain</a></li>
+          <li><a href="../api/index.html">API Reference</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <main class="content">
+      <div class="breadcrumbs">
+        <a href="../index.html">Home</a> &gt; <a href="index.html">Getting Started</a> &gt; Introduction
+      </div>
+      
+      <h1>Introduction to OpenCurve</h1>
+      
+      <p>OpenCurve is a revolutionary platform for creating, launching, and trading utility-driven tokens with native AI agent capabilities. Our platform emphasizes transparency, security, and immediate utility for launched tokens.</p>
+      
+      <h2>Core Principles</h2>
+      
+      <p>OpenCurve is built on several key principles that guide everything we do:</p>
+      
+      <ul>
+        <li><strong>Transparency:</strong> No pre-sales, no insiders, maximum transparency in all operations</li>
+        <li><strong>Utility-First:</strong> Every token should provide real value to its holders</li>
+        <li><strong>AI Integration:</strong> Native support for AI agents that provide services through tokens</li>
+        <li><strong>Security:</strong> Fully audited smart contracts ensuring security of assets</li>
+        <li><strong>Accessibility:</strong> Easy-to-use platform with low barriers to entry</li>
+      </ul>
+      
+      <h2>Platform Overview</h2>
+      
+      <p>The OpenCurve platform consists of several interconnected components:</p>
+      
+      <h3>Token Creation & Launch</h3>
+      <p>Create your own utility token with customizable parameters. Set the initial supply, name, symbol, and utility functions. Launch with locked liquidity for maximum security.</p>
+      
+      <h3>Trading Interface</h3>
+      <p>Trade tokens directly on the platform with real-time price charts, depth information, and order books. Low fees and high liquidity make trading efficient.</p>
+      
+      <h3>AI Agents</h3>
+      <p>Connect your token to AI agents that provide specific services. These can range from simple data provision to complex autonomous operations like trading, customer service, or content creation.</p>
+      
+      <h3>Wallet Integration</h3>
+      <p>Seamlessly connect with popular Web3 wallets like MetaMask, WalletConnect, and Coinbase Wallet to manage your assets.</p>
+      
+      <h2>Getting Started</h2>
+      
+      <p>To begin using OpenCurve, follow these steps:</p>
+      
+      <ol>
+        <li>Connect your Web3 wallet to the platform</li>
+        <li>Explore existing tokens and their AI agents</li>
+        <li>Create your first token or buy existing tokens</li>
+        <li>Set up an AI agent for your token if desired</li>
+      </ol>
+      
+      <p>For detailed instructions on each step, explore the relevant sections of our documentation.</p>
+      
+      <h2>Next Steps</h2>
+      
+      <p>Now that you understand the basics of OpenCurve, you might want to:</p>
+      
+      <ul>
+        <li><a href="../tokens/create.html">Learn how to create your first token</a></li>
+        <li><a href="../trading/overview.html">Understand how trading works on OpenCurve</a></li>
+        <li><a href="../agents/overview.html">Explore AI agents and their capabilities</a></li>
+        <li><a href="../wallets/connecting.html">Set up your wallet connection</a></li>
+      </ul>
+    </main>
+  </div>
+  
+  <footer>
+    <p>© 2023-2025 OpenCurve. All rights reserved.</p>
+  </footer>
+</body>
+</html>
