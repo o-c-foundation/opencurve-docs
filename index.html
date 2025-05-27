@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenCurve Documentation</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f7;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #6366f1;
+            color: white;
+            border-radius: 8px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        h2 {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+            margin-top: 30px;
+            color: #4f46e5;
+        }
+        .subtitle {
+            margin-top: 10px;
+            font-size: 1.2em;
+            opacity: 0.8;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card h3 {
+            margin-top: 0;
+            color: #4f46e5;
+        }
+        a {
+            color: #6366f1;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .footer {
+            margin-top: 60px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>OpenCurve Documentation</h1>
+        <div class="subtitle">Utility Driven Tokens with Native Agents</div>
+    </header>
+
+    <main>
+        <p>OpenCurve is a platform for creating, launching, and trading utility-driven tokens with native AI agent capabilities. The platform emphasizes transparency, security, and immediate utility for launched tokens.</p>
+
+        <div class="container">
+            <div class="card">
+                <h3>Getting Started</h3>
+                <ul>
+                    <li><a href="getting-started/introduction.html">Introduction to OpenCurve</a></li>
+                    <li><a href="getting-started/index.html">Quick Start Guide</a></li>
+                    <li><a href="tokens/create.html">Creating Your First Token</a></li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Tokens</h3>
+                <ul>
+                    <li><a href="tokens/index.html">Token Overview</a></li>
+                    <li><a href="tokens/create.html">Token Creation</a></li>
+                    <li><a href="tokens/economics.html">Token Economics</a></li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Trading</h3>
+                <ul>
+                    <li><a href="trading/overview.html">Trading Overview</a></li>
+                    <li><a href="trading/index.html">Trading Guide</a></li>
+                    <li><a href="trading/strategies.html">Trading Strategies</a></li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>AI Agents</h3>
+                <ul>
+                    <li><a href="agents/overview.html">Understanding AI Agents</a></li>
+                    <li><a href="agents/index.html">Agent Types</a></li>
+                    <li><a href="agents/create-agent.html">Creating Your First Agent</a></li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Wallets</h3>
+                <ul>
+                    <li><a href="wallets/connecting.html">Connecting Your Wallet</a></li>
+                    <li><a href="wallets/index.html">Wallet Management</a></li>
+                    <li><a href="wallets/security.html">Wallet Security</a></li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Blockchain</h3>
+                <ul>
+                    <li><a href="blockchain/rpc-connections.html">RPC Connections</a></li>
+                    <li><a href="blockchain/smart-contracts.html">Smart Contracts</a></li>
+                    <li><a href="blockchain/index.html">Blockchain Integration</a></li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>API Reference</h3>
+                <ul>
+                    <li><a href="api/index.html">API Overview</a></li>
+                    <li><a href="api/tokens.html">Token APIs</a></li>
+                    <li><a href="api/agents.html">Agent APIs</a></li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Deployment</h3>
+                <ul>
+                    <li><a href="README-DEPLOY.html">Deployment Guide</a></li>
+                    <li><a href="README.html">Repository Overview</a></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <div class="footer">
+        <p>© 2023-2025 OpenCurve. All rights reserved.</p>
+    </div>
+</body>
+</html>

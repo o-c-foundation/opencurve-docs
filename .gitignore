@@ -1,0 +1,23 @@
+# Jekyll build files
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Node modules (if using any JS tools)
+node_modules/
+
+# Environment variables
+.env
+
+# Local development settings
+.ruby-version
+Gemfile.lock
