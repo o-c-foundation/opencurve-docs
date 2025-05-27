@@ -1,13 +1,19 @@
 title: OpenCurve Documentation
 description: Documentation for OpenCurve - The platform for utility-driven tokens with native AI agents
 baseurl: "/opencurve-docs" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://o-c-foundation.github.io" # the base hostname & protocol for your site
 
 # Theme settings
-remote_theme: pmarsceill/just-the-docs
+theme: minima
 color_scheme: dark
 search_enabled: true
 heading_anchors: true
+
+# Enable or disable the site search
+search_enabled: true
+
+# Set the search token separator
+search_tokenizer_separator: /[\s/]+/
 
 # Aux links for the upper right navigation
 aux_links:

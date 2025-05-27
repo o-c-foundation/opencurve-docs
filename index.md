@@ -1,13 +1,9 @@
 ---
-layout: default
-title: Home
-nav_order: 1
-permalink: /
+layout: home
+title: OpenCurve Documentation
 ---
 
 # OpenCurve Documentation
-
-![OpenCurve Logo](/assets/images/logo.webp)
 
 ## Utility Driven Tokens with Native Agents
 
@@ -30,17 +26,15 @@ OpenCurve is a platform for creating, launching, and trading utility-driven toke
 - [Understanding AI Agents](./agents/overview.html)
 - [Wallet Connection](./wallets/connecting.html)
 
-### Core Values
+### Documentation Sections
 
-- No pre-sale, no insiders, maximum transparency
-- Create any agent from Travel agents, to real estate agents, to trading agents
-- Utility-driven tokens that provide real value to holders
-- Fully audited smart contracts ensuring security
-
-### Supported Networks
-
-- Ethereum Mainnet
-- Sepolia Testnet
+- [Getting Started](./getting-started/)
+- [Tokens](./tokens/)
+- [Trading](./trading/)
+- [Agents](./agents/)
+- [Wallets](./wallets/)
+- [Blockchain](./blockchain/)
+- [API Reference](./api/)
 
 ---
 
